@@ -5,7 +5,6 @@ public interface GestionAlumno {
 
 
     public void insertar(Alumno a);
-    public void eliminar(Alumno a);
 
     public List<Alumno> listarAlumnos();
 }

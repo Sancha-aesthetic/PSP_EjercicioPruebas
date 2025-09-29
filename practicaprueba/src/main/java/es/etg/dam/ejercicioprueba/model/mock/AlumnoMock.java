@@ -2,8 +2,8 @@ package es.etg.dam.ejercicioprueba.model.mock;
 import java.util.ArrayList;
 import java.util.List;
 
-import es.etg.dam.ejercicioprueba.model.GestionAlumno;
 import es.etg.dam.ejercicioprueba.model.Alumno;
+import es.etg.dam.ejercicioprueba.model.GestionAlumno;
 
 public class AlumnoMock implements GestionAlumno{
 
@@ -14,10 +14,6 @@ public class AlumnoMock implements GestionAlumno{
         lista.add(a);
     }
 
-    @Override
-    public void eliminar(Alumno a) {
-        lista.remove(a);
-    }
 
     @Override
     public List<Alumno> listarAlumnos() {

@@ -1,0 +1,11 @@
+/home/debian/Desktop/PSP_EjercicioPurebas/practicaprueba/src/main/java/es/etg/dam/ejercicioprueba/App.java
+/home/debian/Desktop/PSP_EjercicioPurebas/practicaprueba/src/main/java/es/etg/dam/ejercicioprueba/controller/AlumnoController.java
+/home/debian/Desktop/PSP_EjercicioPurebas/practicaprueba/src/main/java/es/etg/dam/ejercicioprueba/model/Acceder.java
+/home/debian/Desktop/PSP_EjercicioPurebas/practicaprueba/src/main/java/es/etg/dam/ejercicioprueba/model/Alumno.java
+/home/debian/Desktop/PSP_EjercicioPurebas/practicaprueba/src/main/java/es/etg/dam/ejercicioprueba/model/AlumnoFabrica.java
+/home/debian/Desktop/PSP_EjercicioPurebas/practicaprueba/src/main/java/es/etg/dam/ejercicioprueba/model/GestionAlumno.java
+/home/debian/Desktop/PSP_EjercicioPurebas/practicaprueba/src/main/java/es/etg/dam/ejercicioprueba/model/db/AlumnoData.java
+/home/debian/Desktop/PSP_EjercicioPurebas/practicaprueba/src/main/java/es/etg/dam/ejercicioprueba/model/db/AlumnoDataImp.java
+/home/debian/Desktop/PSP_EjercicioPurebas/practicaprueba/src/main/java/es/etg/dam/ejercicioprueba/model/mock/AlumnoMock.java
+/home/debian/Desktop/PSP_EjercicioPurebas/practicaprueba/src/main/java/es/etg/dam/ejercicioprueba/view/AlumnoViewController.java
+/home/debian/Desktop/PSP_EjercicioPurebas/practicaprueba/src/main/java/module-info.java

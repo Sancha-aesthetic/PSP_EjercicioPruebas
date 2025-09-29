@@ -9,10 +9,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.etg.prog.mvc.view.FichaViewController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.etg.dam.ejercicioprueba.fichaView">
    <children>
-      <Label prefHeight="136.0" prefWidth="351.0" text="Crear Alumno">
+      <Label prefHeight="136.0" prefWidth="519.0" text="Insertar Alumno">
          <font>
             <Font size="51.0" />
          </font>
@@ -30,7 +29,11 @@
          <children>
             <Label text="Nombre:" />
             <Label text="Apellidos:" GridPane.rowIndex="1" />
-            <Button fx:id="btnCrear" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#crear" prefHeight="24.0" prefWidth="54.0" text="Crear" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            
+            <Button fx:id="btnInsertar" mnemonicParsing="false" onAction="#insertar" prefHeight="24.0" prefWidth="80.0" text="Insertar" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+            <Button fx:id="btnListar" mnemonicParsing="false" onAction="#listar" prefHeight="24.0" prefWidth="80.0" text="Listar" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+
             <TextField fx:id="txtNombre" GridPane.columnIndex="1" />
             <TextField fx:id="txtApellidos" GridPane.columnIndex="1" GridPane.rowIndex="1" />
          </children>
